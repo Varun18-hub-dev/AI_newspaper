@@ -1,4 +1,4 @@
-import { getCurrentPointer } from '../../lib/editions';
+import { getCurrentPointer } from '../../lib/editions.js';
 
 export default async function handler(req, res) {
   try {
