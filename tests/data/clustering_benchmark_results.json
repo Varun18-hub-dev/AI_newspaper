@@ -1,0 +1,47 @@
+{
+  "dataset_total_pairs": 100,
+  "positive_pairs": 50,
+  "negative_pairs": 50,
+  "provenance": {
+    "real_collected": 30,
+    "manually_authored": 70
+  },
+  "tfidf": {
+    "load_time_seconds": 0.0,
+    "eval_time_seconds": 3.7451,
+    "avg_ms_per_pair": 37.45,
+    "tp": 46,
+    "fp": 0,
+    "tn": 50,
+    "fn": 4,
+    "precision": 1.0,
+    "recall": 0.92,
+    "f1": 0.9583,
+    "accuracy": 0.96
+  },
+  "minilm_onnx_guarded": {
+    "load_time_seconds": 3.0229,
+    "eval_time_seconds": 34.7004,
+    "avg_ms_per_pair": 347.0,
+    "tp": 50,
+    "fp": 0,
+    "tn": 50,
+    "fn": 0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "accuracy": 1.0
+  },
+  "minilm_onnx_raw": {
+    "eval_time_seconds": 29.9691,
+    "avg_ms_per_pair": 299.69,
+    "tp": 50,
+    "fp": 14,
+    "tn": 36,
+    "fn": 0,
+    "precision": 0.7812,
+    "recall": 1.0,
+    "f1": 0.8772,
+    "accuracy": 0.86
+  }
+}

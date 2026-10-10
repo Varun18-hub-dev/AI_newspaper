@@ -1,0 +1,249 @@
+AWSTemplateFormatVersion: '2010-09-09'
+Description: 'Personalized AI Newspaper - Daily GPU Worker Orchestration, EC2 Instance Profile, and S3 Edition Storage'
+
+Parameters:
+  EC2InstanceId:
+    Type: String
+    Description: 'Instance ID of the dedicated EC2 GPU worker (e.g. g4dn.xlarge)'
+  ScheduleCron:
+    Type: String
+    Default: 'cron(0 6 * * ? *)'
+    Description: 'EventBridge cron expression for daily publication (default: 06:00 AM)'
+  ScheduleTimezone:
+    Type: String
+    Default: 'Asia/Kolkata'
+    Description: 'Timezone for scheduled execution'
+  AlertEmail:
+    Type: String
+    Default: 'admin@example.com'
+    Description: 'Email address for operational failure alerts'
+
+Resources:
+  # 1. Durable Edition Storage S3 Bucket
+  EditionsBucket:
+    Type: AWS::S3::Bucket
+    Properties:
+      BucketName: !Sub 'ai-newspaper-editions-${AWS::AccountId}-${AWS::Region}'
+      VersioningConfiguration:
+        Status: Enabled
+      BucketEncryption:
+        ServerSideEncryptionConfiguration:
+          - ServerSideEncryptionByDefault:
+              SSEAlgorithm: AES256
+      PublicAccessBlockConfiguration:
+        BlockPublicAcls: true
+        BlockPublicPolicy: true
+        IgnorePublicAcls: true
+        RestrictPublicBuckets: true
+      LifecycleConfiguration:
+        Rules:
+          - Id: ExpireOldEditions
+            Status: Enabled
+            ExpirationInDays: 90
+
+  # 2. Operational Alert SNS Topic
+  AlertTopic:
+    Type: AWS::SNS::Topic
+    Properties:
+      TopicName: ai-newspaper-operational-alerts
+      Subscription:
+        - Endpoint: !Ref AlertEmail
+          Protocol: email
+
+  # 3. IAM Role for Lambda Worker Coordinator
+  LambdaExecutionRole:
+    Type: AWS::IAM::Role
+    Properties:
+      AssumeRolePolicyDocument:
+        Version: '2012-10-17'
+        Statement:
+          - Effect: Allow
+            Principal:
+              Service: lambda.amazonaws.com
+            Action: sts:AssumeRole
+      Policies:
+        - PolicyName: EC2StartAndSNSAlertPolicy
+          PolicyDocument:
+            Version: '2012-10-17'
+            Statement:
+              - Effect: Allow
+                Action:
+                  - ec2:DescribeInstances
+                Resource: '*'
+              - Effect: Allow
+                Action:
+                  - ec2:StartInstances
+                Resource: !Sub 'arn:aws:ec2:${AWS::Region}:${AWS::AccountId}:instance/${EC2InstanceId}'
+              - Effect: Allow
+                Action:
+                  - sns:Publish
+                Resource: !Ref AlertTopic
+              - Effect: Allow
+                Action:
+                  - logs:CreateLogGroup
+                  - logs:CreateLogStream
+                  - logs:PutLogEvents
+                Resource: 'arn:aws:logs:*:*:*'
+
+  # 4. Lambda Function Coordinator (Inline Code Packaging)
+  WorkerCoordinatorFunction:
+    Type: AWS::Lambda::Function
+    Properties:
+      FunctionName: ai-newspaper-worker-coordinator
+      Runtime: python3.11
+      Handler: index.lambda_handler
+      Role: !GetAtt LambdaExecutionRole.Arn
+      Timeout: 60
+      Environment:
+        Variables:
+          EC2_INSTANCE_ID: !Ref EC2InstanceId
+          AWS_REGION: !Ref AWS::Region
+          NOTIFICATION_SNS_ARN: !Ref AlertTopic
+      Code:
+        ZipFile: |
+          import json
+          import logging
+          import os
+          import boto3
+
+          logger = logging.getLogger()
+          logger.setLevel(logging.INFO)
+
+          EC2_INSTANCE_ID = os.environ.get("EC2_INSTANCE_ID")
+          AWS_REGION = os.environ.get("AWS_REGION", "ap-south-1")
+          NOTIFICATION_SNS_ARN = os.environ.get("NOTIFICATION_SNS_ARN")
+
+          def lambda_handler(event, context):
+              logger.info(f"Received EventBridge trigger event: {json.dumps(event)}")
+              if not EC2_INSTANCE_ID:
+                  err = "EC2_INSTANCE_ID environment variable missing."
+                  logger.error(err)
+                  return {"statusCode": 500, "body": json.dumps({"error": err})}
+              ec2 = boto3.client("ec2", region_name=AWS_REGION)
+              try:
+                  resp = ec2.describe_instances(InstanceIds=[EC2_INSTANCE_ID])
+                  reservations = resp.get("Reservations", [])
+                  if not reservations or not reservations[0].get("Instances"):
+                      err = f"EC2 instance {EC2_INSTANCE_ID} not found."
+                      logger.error(err)
+                      return {"statusCode": 404, "body": json.dumps({"error": err})}
+                  state = reservations[0]["Instances"][0]["State"]["Name"]
+                  logger.info(f"Current worker state: {state}")
+                  if state in ("running", "pending"):
+                      return {"statusCode": 200, "body": json.dumps({"status": "ALREADY_ACTIVE", "state": state})}
+                  if state == "stopping":
+                      return {"statusCode": 409, "body": json.dumps({"status": "STOPPING_WAIT"})}
+                  ec2.start_instances(InstanceIds=[EC2_INSTANCE_ID])
+                  return {"statusCode": 200, "body": json.dumps({"status": "START_INITIATED"})}
+              except Exception as e:
+                  logger.error(f"Failed to start EC2: {e}", exc_info=True)
+                  if NOTIFICATION_SNS_ARN:
+                      try:
+                          sns = boto3.client("sns", region_name=AWS_REGION)
+                          sns.publish(
+                              TopicArn=NOTIFICATION_SNS_ARN,
+                              Subject="[ALERT] AI Newspaper GPU Worker Startup Failed",
+                              Message=f"Failed to start EC2 worker {EC2_INSTANCE_ID}: {str(e)}",
+                          )
+                      except Exception as ne:
+                          logger.error(f"SNS publish error: {ne}")
+                  return {"statusCode": 500, "body": json.dumps({"error": str(e)})}
+
+  # 5. EventBridge Scheduler IAM Role
+  EventBridgeSchedulerRole:
+    Type: AWS::IAM::Role
+    Properties:
+      AssumeRolePolicyDocument:
+        Version: '2012-10-17'
+        Statement:
+          - Effect: Allow
+            Principal:
+              Service: scheduler.amazonaws.com
+            Action: sts:AssumeRole
+      Policies:
+        - PolicyName: InvokeWorkerCoordinatorLambdaPolicy
+          PolicyDocument:
+            Version: '2012-10-17'
+            Statement:
+              - Effect: Allow
+                Action: lambda:InvokeFunction
+                Resource: !GetAtt WorkerCoordinatorFunction.Arn
+
+  # 6. EventBridge Schedule (Daily 06:00 IST)
+  DailyPublicationSchedule:
+    Type: AWS::Scheduler::Schedule
+    Properties:
+      Name: ai-newspaper-daily-publication
+      Description: 'Triggers daily GPU worker startup for newspaper publication'
+      ScheduleExpression: !Ref ScheduleCron
+      ScheduleExpressionTimezone: !Ref ScheduleTimezone
+      FlexibleTimeWindow:
+        Mode: FLEXIBLE
+        MaximumWindowInMinutes: 15
+      State: ENABLED
+      Target:
+        Arn: !GetAtt WorkerCoordinatorFunction.Arn
+        RoleArn: !GetAtt EventBridgeSchedulerRole.Arn
+        Input: '{"action": "START_DAILY_WORKER"}'
+        RetryPolicy:
+          MaximumRetryAttempts: 2
+          MaximumEventAgeInSeconds: 3600
+
+  # 7. EC2 Worker IAM Role (For S3 Publish & Self-Stop)
+  EC2WorkerRole:
+    Type: AWS::IAM::Role
+    Properties:
+      RoleName: !Sub 'ai-newspaper-worker-role-${AWS::Region}'
+      AssumeRolePolicyDocument:
+        Version: '2012-10-17'
+        Statement:
+          - Effect: Allow
+            Principal:
+              Service: ec2.amazonaws.com
+            Action: sts:AssumeRole
+      Policies:
+        - PolicyName: S3PublishAndSelfStopPolicy
+          PolicyDocument:
+            Version: '2012-10-17'
+            Statement:
+              - Effect: Allow
+                Action:
+                  - s3:PutObject
+                  - s3:GetObject
+                  - s3:ListBucket
+                Resource:
+                  - !GetAtt EditionsBucket.Arn
+                  - !Sub '${EditionsBucket.Arn}/*'
+              - Effect: Allow
+                Action:
+                  - ec2:StopInstances
+                  - ec2:DescribeInstances
+                Resource: '*'
+              - Effect: Allow
+                Action:
+                  - logs:CreateLogGroup
+                  - logs:CreateLogStream
+                  - logs:PutLogEvents
+                Resource: 'arn:aws:logs:*:*:*'
+
+  # 8. EC2 Worker Instance Profile
+  EC2WorkerInstanceProfile:
+    Type: AWS::IAM::InstanceProfile
+    Properties:
+      InstanceProfileName: !Sub 'ai-newspaper-worker-profile-${AWS::Region}'
+      Roles:
+        - !Ref EC2WorkerRole
+
+Outputs:
+  EditionsBucketName:
+    Description: 'S3 bucket for published newspaper editions'
+    Value: !Ref EditionsBucket
+  CoordinatorLambdaArn:
+    Description: 'ARN of the worker coordinator Lambda function'
+    Value: !GetAtt WorkerCoordinatorFunction.Arn
+  AlertTopicArn:
+    Description: 'ARN of the operational SNS topic'
+    Value: !Ref AlertTopic
+  EC2WorkerInstanceProfileArn:
+    Description: 'IAM Instance Profile to attach to the dedicated EC2 GPU worker instance'
+    Value: !GetAtt EC2WorkerInstanceProfile.Arn

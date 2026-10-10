@@ -1,0 +1,342 @@
+[
+  {
+    "id": "pos_01_openai_o1",
+    "expected_cluster": true,
+    "category": "same_event_different_sources",
+    "article_a": {
+      "title": "OpenAI launches o1 reasoning model with enhanced problem-solving",
+      "url": "https://techcrunch.com/2024/09/12/openai-o1-reasoning",
+      "source": "TechCrunch",
+      "description": "OpenAI has officially launched o1, a new series of AI models designed to spend more time thinking before responding."
+    },
+    "article_b": {
+      "title": "OpenAI officially unveils new o1 AI model capable of complex reasoning",
+      "url": "https://theverge.com/2024/9/12/openai-o1-model-release",
+      "source": "The Verge",
+      "description": "The new o1 model from OpenAI excels at mathematics, coding, and scientific problem solving by reasoning through chains of thought."
+    }
+  },
+  {
+    "id": "pos_02_claude_35_sonnet",
+    "expected_cluster": true,
+    "category": "same_event_different_sources",
+    "article_a": {
+      "title": "Anthropic releases Claude 3.5 Sonnet with state-of-the-art coding abilities",
+      "url": "https://arstechnica.com/information-technology/2024/06/anthropic-claude-3-5-sonnet",
+      "source": "Ars Technica",
+      "description": "Anthropic announced Claude 3.5 Sonnet, demonstrating major improvements in benchmarks for coding, vision, and reasoning."
+    },
+    "article_b": {
+      "title": "Claude 3.5 Sonnet launched by Anthropic, outperforming competitors in benchmarks",
+      "url": "https://techcrunch.com/2024/06/20/anthropic-claude-3-5-sonnet-launch",
+      "source": "TechCrunch",
+      "description": "Claude 3.5 Sonnet is now available across Anthropic API and consumer apps, showing superior benchmark performance."
+    }
+  },
+  {
+    "id": "pos_03_llama_32",
+    "expected_cluster": true,
+    "category": "same_event_different_sources",
+    "article_a": {
+      "title": "Meta releases Llama 3.2 with lightweight multimodal vision capabilities",
+      "url": "https://theverge.com/2024/9/25/meta-llama-3-2-vision",
+      "source": "The Verge",
+      "description": "Meta has released Llama 3.2, including small multimodal models designed to run locally on mobile hardware."
+    },
+    "article_b": {
+      "title": "Meta unveils Llama 3.2 open models designed for mobile edge devices",
+      "url": "https://huggingface.co/blog/llama-3-2",
+      "source": "Hugging Face Blog",
+      "description": "Llama 3.2 arrives with 1B, 3B text models and 11B, 90B vision models for on-device and edge deployment."
+    }
+  },
+  {
+    "id": "pos_04_gemini_15_pro",
+    "expected_cluster": true,
+    "category": "same_event_different_sources",
+    "article_a": {
+      "title": "Google announces Gemini 1.5 Pro with 2-million-token context window",
+      "url": "https://techcrunch.com/2024/05/14/google-gemini-1-5-pro-update",
+      "source": "TechCrunch",
+      "description": "Google announced at I/O that Gemini 1.5 Pro can now process up to 2 million tokens of context."
+    },
+    "article_b": {
+      "title": "Gemini 1.5 Pro expanded to 2 million tokens by Google Cloud",
+      "url": "https://theverge.com/2024/5/14/google-gemini-1-5-pro-context",
+      "source": "The Verge",
+      "description": "Google has doubled Gemini 1.5 Pro context window to 2 million tokens for enterprise developers."
+    }
+  },
+  {
+    "id": "pos_05_deepseek_r1",
+    "expected_cluster": true,
+    "category": "same_event_different_sources",
+    "article_a": {
+      "title": "DeepSeek-R1 open-source reasoning model matches OpenAI o1 performance",
+      "url": "https://huggingface.co/blog/deepseek-r1-release",
+      "source": "Hugging Face Blog",
+      "description": "DeepSeek-R1 uses pure reinforcement learning to deliver reasoning capabilities comparable to proprietary models."
+    },
+    "article_b": {
+      "title": "China's DeepSeek releases open reasoning model DeepSeek-R1",
+      "url": "https://arstechnica.com/ai/2025/01/deepseek-r1-open-weights",
+      "source": "Ars Technica",
+      "description": "DeepSeek has launched DeepSeek-R1 with open weights and MIT license, shaking up the reasoning landscape."
+    }
+  },
+  {
+    "id": "pos_06_mistral_large_2",
+    "expected_cluster": true,
+    "category": "same_event_different_sources",
+    "article_a": {
+      "title": "Mistral AI debuts Mistral Large 2 with 128k context and advanced multilingual support",
+      "url": "https://techcrunch.com/2024/07/24/mistral-large-2-release",
+      "source": "TechCrunch",
+      "description": "French startup Mistral AI unveiled Mistral Large 2, a 123-billion parameter model for enterprise and code generation."
+    },
+    "article_b": {
+      "title": "Mistral Large 2 launched with competitive benchmark performance",
+      "url": "https://theverge.com/2024/7/24/mistral-ai-mistral-large-2",
+      "source": "The Verge",
+      "description": "Mistral Large 2 offers 128k context window and strong code generation capabilities to rival major labs."
+    }
+  },
+  {
+    "id": "pos_07_searchgpt",
+    "expected_cluster": true,
+    "category": "same_event_different_sources",
+    "article_a": {
+      "title": "OpenAI tests SearchGPT prototype AI search engine to take on Google",
+      "url": "https://theverge.com/2024/7/25/openai-searchgpt-prototype",
+      "source": "The Verge",
+      "description": "OpenAI announced SearchGPT, an AI-powered search prototype designed to give fast answers with clear sources."
+    },
+    "article_b": {
+      "title": "OpenAI announces SearchGPT prototype for web search with direct citations",
+      "url": "https://techcrunch.com/2024/07/25/openai-searchgpt-ai-search",
+      "source": "TechCrunch",
+      "description": "SearchGPT will combine conversational AI with up-to-date web information and publisher citations."
+    }
+  },
+  {
+    "id": "pos_08_apple_intelligence",
+    "expected_cluster": true,
+    "category": "same_event_different_sources",
+    "article_a": {
+      "title": "Apple unveils Apple Intelligence system integrated across iOS and macOS",
+      "url": "https://arstechnica.com/gadgets/2024/06/apple-intelligence-announcement",
+      "source": "Ars Technica",
+      "description": "Apple announced Apple Intelligence at WWDC, bringing personal generative AI features to iPhone, iPad, and Mac."
+    },
+    "article_b": {
+      "title": "Apple announces Apple Intelligence AI features for iPhone and Mac",
+      "url": "https://theverge.com/2024/6/10/apple-intelligence-wwdc-2024",
+      "source": "The Verge",
+      "description": "Apple Intelligence includes writing tools, notification summaries, image generation, and a smarter Siri."
+    }
+  },
+  {
+    "id": "pos_09_runway_gen3",
+    "expected_cluster": true,
+    "category": "same_event_different_sources",
+    "article_a": {
+      "title": "Runway launches Gen-3 Alpha high-fidelity video generation model",
+      "url": "https://techcrunch.com/2024/06/17/runway-gen-3-alpha-video",
+      "source": "TechCrunch",
+      "description": "Runway has introduced Gen-3 Alpha, an AI video model capable of generating photorealistic clips with cinematic motion."
+    },
+    "article_b": {
+      "title": "Gen-3 Alpha text-to-video AI model released by Runway",
+      "url": "https://theverge.com/2024/6/17/runway-gen-3-alpha-announcement",
+      "source": "The Verge",
+      "description": "Runway announced Gen-3 Alpha, representing a major leap in video generation fidelity, temporal consistency, and prompt adherence."
+    }
+  },
+  {
+    "id": "pos_10_prompt_example_pattern",
+    "expected_cluster": true,
+    "category": "prompt_specification_example",
+    "article_a": {
+      "title": "Company X releases a new reasoning model",
+      "url": "https://source-a.com/company-x-reasoning-model",
+      "source": "Source A",
+      "description": "Company X has released a new reasoning AI model designed for deep mathematical and logical problem solving."
+    },
+    "article_b": {
+      "title": "Company X announces its latest AI model",
+      "url": "https://source-b.com/company-x-latest-ai-model",
+      "source": "Source B",
+      "description": "Company X announces its latest AI model with reasoning capabilities for complex logical tasks."
+    }
+  },
+  {
+    "id": "neg_01_openai_o1_vs_searchgpt",
+    "expected_cluster": false,
+    "category": "same_company_different_products",
+    "article_a": {
+      "title": "OpenAI launches o1 reasoning model with enhanced problem-solving",
+      "url": "https://techcrunch.com/2024/09/12/openai-o1-reasoning",
+      "source": "TechCrunch",
+      "description": "OpenAI has officially launched o1, a new series of AI models designed to spend more time thinking before responding."
+    },
+    "article_b": {
+      "title": "OpenAI announces SearchGPT prototype for web search with direct citations",
+      "url": "https://techcrunch.com/2024/07/25/openai-searchgpt-ai-search",
+      "source": "TechCrunch",
+      "description": "SearchGPT will combine conversational AI with up-to-date web information and publisher citations."
+    }
+  },
+  {
+    "id": "neg_02_openai_o1_vs_funding",
+    "expected_cluster": false,
+    "category": "same_company_different_event_types",
+    "article_a": {
+      "title": "OpenAI launches o1 reasoning model with enhanced problem-solving",
+      "url": "https://techcrunch.com/2024/09/12/openai-o1-reasoning",
+      "source": "TechCrunch",
+      "description": "OpenAI has officially launched o1, a new series of AI models designed to spend more time thinking."
+    },
+    "article_b": {
+      "title": "OpenAI closes $6.6 billion funding round at $157 billion valuation",
+      "url": "https://theverge.com/2024/10/2/openai-6-6-billion-funding-round",
+      "source": "The Verge",
+      "description": "OpenAI has completed a $6.6 billion financing round, giving the company a massive $157 billion post-money valuation."
+    }
+  },
+  {
+    "id": "neg_03_claude_sonnet_vs_haiku",
+    "expected_cluster": false,
+    "category": "same_company_different_submodels",
+    "article_a": {
+      "title": "Anthropic releases Claude 3.5 Sonnet with state-of-the-art coding abilities",
+      "url": "https://arstechnica.com/information-technology/2024/06/anthropic-claude-3-5-sonnet",
+      "source": "Ars Technica",
+      "description": "Anthropic announced Claude 3.5 Sonnet, demonstrating major improvements in benchmarks for coding."
+    },
+    "article_b": {
+      "title": "Anthropic introduces Claude 3.5 Haiku for fast lightweight tasks",
+      "url": "https://techcrunch.com/2024/10/22/anthropic-claude-3-5-haiku",
+      "source": "TechCrunch",
+      "description": "Claude 3.5 Haiku is Anthropic newest compact model engineered for high speed, low latency, and cost efficiency."
+    }
+  },
+  {
+    "id": "neg_04_gemini_vs_gpt4o",
+    "expected_cluster": false,
+    "category": "different_companies_similar_buzzwords",
+    "article_a": {
+      "title": "Google announces Gemini 1.5 Pro with multimodal reasoning capabilities",
+      "url": "https://techcrunch.com/2024/05/14/google-gemini-1-5-pro-update",
+      "source": "TechCrunch",
+      "description": "Google announced Gemini 1.5 Pro with long context window and multimodal reasoning capabilities."
+    },
+    "article_b": {
+      "title": "OpenAI unveils GPT-4o with multimodal reasoning and faster inference",
+      "url": "https://theverge.com/2024/5/13/openai-gpt-4o-announcement",
+      "source": "The Verge",
+      "description": "OpenAI announced GPT-4o, bringing real-time voice, vision, and multimodal reasoning to all users."
+    }
+  },
+  {
+    "id": "neg_05_llama_32_vs_31",
+    "expected_cluster": false,
+    "category": "same_company_different_versions",
+    "article_a": {
+      "title": "Meta releases Llama 3.2 with lightweight multimodal vision capabilities",
+      "url": "https://theverge.com/2024/9/25/meta-llama-3-2-vision",
+      "source": "The Verge",
+      "description": "Meta has released Llama 3.2, including small multimodal models designed to run locally on mobile hardware."
+    },
+    "article_b": {
+      "title": "Meta releases Llama 3.1 with 405B parameters and enhanced benchmarks",
+      "url": "https://arstechnica.com/ai/2024/07/meta-llama-3-1-405b",
+      "source": "Ars Technica",
+      "description": "Meta announced Llama 3.1, highlighted by its flagship 405-billion parameter open-weights model."
+    }
+  },
+  {
+    "id": "neg_06_deepseek_r1_vs_v3",
+    "expected_cluster": false,
+    "category": "same_company_reasoning_vs_base",
+    "article_a": {
+      "title": "DeepSeek releases open reasoning model DeepSeek-R1",
+      "url": "https://arstechnica.com/ai/2025/01/deepseek-r1-open-weights",
+      "source": "Ars Technica",
+      "description": "DeepSeek has launched DeepSeek-R1 with open weights, demonstrating reasoning through reinforcement learning."
+    },
+    "article_b": {
+      "title": "DeepSeek launches DeepSeek-V3 large mixture-of-experts model",
+      "url": "https://huggingface.co/blog/deepseek-v3",
+      "source": "Hugging Face Blog",
+      "description": "DeepSeek-V3 is a 671B parameter mixture-of-experts model trained on 14.8 trillion tokens."
+    }
+  },
+  {
+    "id": "neg_07_nvidia_chip_vs_openai_model",
+    "expected_cluster": false,
+    "category": "hardware_gpu_vs_software_model",
+    "article_a": {
+      "title": "NVIDIA announces Blackwell B200 AI GPUs entering volume production",
+      "url": "https://arstechnica.com/gadgets/2024/03/nvidia-blackwell-gpu",
+      "source": "Ars Technica",
+      "description": "NVIDIA unveiled Blackwell B200 GPUs delivering 20 petaflops of FP4 compute for generative AI."
+    },
+    "article_b": {
+      "title": "OpenAI launches o1 reasoning model with enhanced problem-solving",
+      "url": "https://techcrunch.com/2024/09/12/openai-o1-reasoning",
+      "source": "TechCrunch",
+      "description": "OpenAI has officially launched o1, a new series of AI models designed to think before answering."
+    }
+  },
+  {
+    "id": "neg_08_anthropic_lawsuit_vs_sonnet_release",
+    "expected_cluster": false,
+    "category": "legal_lawsuit_vs_model_launch",
+    "article_a": {
+      "title": "Authors file copyright lawsuit against Anthropic over AI training data",
+      "url": "https://theverge.com/2024/8/19/anthropic-copyright-lawsuit",
+      "source": "The Verge",
+      "description": "A group of authors has filed a class-action lawsuit accusing Anthropic of copyright infringement in training Claude."
+    },
+    "article_b": {
+      "title": "Anthropic releases Claude 3.5 Sonnet with state-of-the-art coding abilities",
+      "url": "https://arstechnica.com/information-technology/2024/06/anthropic-claude-3-5-sonnet",
+      "source": "Ars Technica",
+      "description": "Anthropic announced Claude 3.5 Sonnet, demonstrating major improvements in benchmarks for coding."
+    }
+  },
+  {
+    "id": "neg_09_openai_executive_departure_vs_o1",
+    "expected_cluster": false,
+    "category": "executive_departure_vs_model_launch",
+    "article_a": {
+      "title": "OpenAI co-founder Ilya Sutskever departs to launch Safe Superintelligence",
+      "url": "https://theverge.com/2024/5/14/ilya-sutskever-leaves-openai",
+      "source": "The Verge",
+      "description": "Ilya Sutskever has officially resigned from OpenAI to found a new startup focused exclusively on safe superintelligence."
+    },
+    "article_b": {
+      "title": "OpenAI launches o1 reasoning model with enhanced problem-solving",
+      "url": "https://techcrunch.com/2024/09/12/openai-o1-reasoning",
+      "source": "TechCrunch",
+      "description": "OpenAI has officially launched o1, a new series of AI models designed to spend more time thinking."
+    }
+  },
+  {
+    "id": "neg_10_mistral_large_vs_codestral",
+    "expected_cluster": false,
+    "category": "general_flagship_vs_code_specialist",
+    "article_a": {
+      "title": "Mistral AI debuts Mistral Large 2 with 128k context and advanced multilingual support",
+      "url": "https://techcrunch.com/2024/07/24/mistral-large-2-release",
+      "source": "TechCrunch",
+      "description": "French startup Mistral AI unveiled Mistral Large 2, a 123-billion parameter model for enterprise."
+    },
+    "article_b": {
+      "title": "Mistral releases Codestral generative model specifically for code generation",
+      "url": "https://techcrunch.com/2024/05/29/mistral-codestral-code-model",
+      "source": "TechCrunch",
+      "description": "Codestral is a 22B parameter open-weights model designed specifically for code synthesis and completion in 80+ languages."
+    }
+  }
+]

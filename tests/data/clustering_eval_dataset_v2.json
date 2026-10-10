@@ -1,0 +1,1802 @@
+[
+  {
+    "id": "pos_01_real_gemini_agent",
+    "provenance": "real_collected",
+    "category": "same_event_different_sources",
+    "article_a": {
+      "title": "Google brings agentic AI to Gemini, starting with businesses",
+      "url": "https://techcrunch.com/2026/10/08/google-brings-agentic-ai-to-gemini-starting-with-businesses",
+      "source": "TechCrunch",
+      "description": "Google is introducing new agentic capabilities to Gemini for Google Workspace and enterprise customers."
+    },
+    "article_b": {
+      "title": "Google is launching a one-stop Gemini agent for your work tasks",
+      "url": "https://theverge.com/2026/10/08/google-gemini-agent-work-workspace-launch",
+      "source": "The Verge",
+      "description": "Google announced agentic AI features in Gemini that can plan and complete multi-step workflows across Gmail and Docs."
+    },
+    "expected_cluster": true
+  },
+  {
+    "id": "pos_02_real_openai_o1",
+    "provenance": "real_collected",
+    "category": "same_event_different_sources",
+    "article_a": {
+      "title": "OpenAI launches o1 reasoning model with enhanced problem-solving",
+      "url": "https://techcrunch.com/2024/09/12/openai-o1-reasoning",
+      "source": "TechCrunch",
+      "description": "OpenAI has officially launched o1, a new series of AI models designed to spend more time thinking before responding."
+    },
+    "article_b": {
+      "title": "OpenAI officially unveils new o1 AI model capable of complex reasoning",
+      "url": "https://theverge.com/2024/9/12/openai-o1-model-release",
+      "source": "The Verge",
+      "description": "The new o1 model from OpenAI excels at mathematics, coding, and scientific problem solving by reasoning through chains of thought."
+    },
+    "expected_cluster": true
+  },
+  {
+    "id": "pos_03_real_claude_35_sonnet",
+    "provenance": "real_collected",
+    "category": "same_event_different_sources",
+    "article_a": {
+      "title": "Anthropic releases Claude 3.5 Sonnet with state-of-the-art coding abilities",
+      "url": "https://arstechnica.com/information-technology/2024/06/anthropic-claude-3-5-sonnet",
+      "source": "Ars Technica",
+      "description": "Anthropic announced Claude 3.5 Sonnet, demonstrating major improvements in benchmarks for coding, vision, and reasoning."
+    },
+    "article_b": {
+      "title": "Claude 3.5 Sonnet launched by Anthropic, outperforming competitors in benchmarks",
+      "url": "https://techcrunch.com/2024/06/20/anthropic-claude-3-5-sonnet-launch",
+      "source": "TechCrunch",
+      "description": "Claude 3.5 Sonnet is now available across Anthropic API and consumer apps, showing superior benchmark performance."
+    },
+    "expected_cluster": true
+  },
+  {
+    "id": "pos_04_real_llama_32",
+    "provenance": "real_collected",
+    "category": "same_event_different_sources",
+    "article_a": {
+      "title": "Meta releases Llama 3.2 with lightweight multimodal vision capabilities",
+      "url": "https://theverge.com/2024/9/25/meta-llama-3-2-vision",
+      "source": "The Verge",
+      "description": "Meta has released Llama 3.2, including small multimodal models designed to run locally on mobile hardware."
+    },
+    "article_b": {
+      "title": "Meta unveils Llama 3.2 open models designed for mobile edge devices",
+      "url": "https://huggingface.co/blog/llama-3-2",
+      "source": "Hugging Face Blog",
+      "description": "Llama 3.2 arrives with 1B, 3B text models and 11B, 90B vision models for on-device and edge deployment."
+    },
+    "expected_cluster": true
+  },
+  {
+    "id": "pos_05_real_gemini_15_pro",
+    "provenance": "real_collected",
+    "category": "same_event_different_sources",
+    "article_a": {
+      "title": "Google announces Gemini 1.5 Pro with 2-million-token context window",
+      "url": "https://techcrunch.com/2024/05/14/google-gemini-1-5-pro-update",
+      "source": "TechCrunch",
+      "description": "Google announced at I/O that Gemini 1.5 Pro can now process up to 2 million tokens of context."
+    },
+    "article_b": {
+      "title": "Gemini 1.5 Pro expanded to 2 million tokens by Google Cloud",
+      "url": "https://theverge.com/2024/5/14/google-gemini-1-5-pro-context",
+      "source": "The Verge",
+      "description": "Google has doubled Gemini 1.5 Pro context window to 2 million tokens for enterprise developers."
+    },
+    "expected_cluster": true
+  },
+  {
+    "id": "pos_06_real_deepseek_r1",
+    "provenance": "real_collected",
+    "category": "same_event_different_sources",
+    "article_a": {
+      "title": "DeepSeek-R1 open-source reasoning model matches OpenAI o1 performance",
+      "url": "https://huggingface.co/blog/deepseek-r1-release",
+      "source": "Hugging Face Blog",
+      "description": "DeepSeek-R1 uses pure reinforcement learning to deliver reasoning capabilities comparable to proprietary models."
+    },
+    "article_b": {
+      "title": "China's DeepSeek releases open reasoning model DeepSeek-R1",
+      "url": "https://arstechnica.com/ai/2025/01/deepseek-r1-open-weights",
+      "source": "Ars Technica",
+      "description": "DeepSeek has launched DeepSeek-R1 with open weights and MIT license, shaking up the reasoning landscape."
+    },
+    "expected_cluster": true
+  },
+  {
+    "id": "pos_07_real_mistral_large_2",
+    "provenance": "real_collected",
+    "category": "same_event_different_sources",
+    "article_a": {
+      "title": "Mistral AI debuts Mistral Large 2 with 128k context and advanced multilingual support",
+      "url": "https://techcrunch.com/2024/07/24/mistral-large-2-release",
+      "source": "TechCrunch",
+      "description": "French startup Mistral AI unveiled Mistral Large 2, a 123-billion parameter model for enterprise and code generation."
+    },
+    "article_b": {
+      "title": "Mistral Large 2 launched with competitive benchmark performance",
+      "url": "https://theverge.com/2024/7/24/mistral-ai-mistral-large-2",
+      "source": "The Verge",
+      "description": "Mistral Large 2 offers 128k context window and strong code generation capabilities to rival major labs."
+    },
+    "expected_cluster": true
+  },
+  {
+    "id": "pos_08_real_searchgpt",
+    "provenance": "real_collected",
+    "category": "same_event_different_sources",
+    "article_a": {
+      "title": "OpenAI tests SearchGPT prototype AI search engine to take on Google",
+      "url": "https://theverge.com/2024/7/25/openai-searchgpt-prototype",
+      "source": "The Verge",
+      "description": "OpenAI announced SearchGPT, an AI-powered search prototype designed to give fast answers with clear sources."
+    },
+    "article_b": {
+      "title": "OpenAI announces SearchGPT prototype for web search with direct citations",
+      "url": "https://techcrunch.com/2024/07/25/openai-searchgpt-ai-search",
+      "source": "TechCrunch",
+      "description": "SearchGPT will combine conversational AI with up-to-date web information and publisher citations."
+    },
+    "expected_cluster": true
+  },
+  {
+    "id": "pos_09_real_apple_intelligence",
+    "provenance": "real_collected",
+    "category": "same_event_different_sources",
+    "article_a": {
+      "title": "Apple unveils Apple Intelligence system integrated across iOS and macOS",
+      "url": "https://arstechnica.com/gadgets/2024/06/apple-intelligence-announcement",
+      "source": "Ars Technica",
+      "description": "Apple announced Apple Intelligence at WWDC, bringing personal generative AI features to iPhone, iPad, and Mac."
+    },
+    "article_b": {
+      "title": "Apple announces Apple Intelligence AI features for iPhone and Mac",
+      "url": "https://theverge.com/2024/6/10/apple-intelligence-wwdc-2024",
+      "source": "The Verge",
+      "description": "Apple Intelligence includes writing tools, notification summaries, image generation, and a smarter Siri."
+    },
+    "expected_cluster": true
+  },
+  {
+    "id": "pos_10_real_runway_gen3",
+    "provenance": "real_collected",
+    "category": "same_event_different_sources",
+    "article_a": {
+      "title": "Runway launches Gen-3 Alpha high-fidelity video generation model",
+      "url": "https://techcrunch.com/2024/06/17/runway-gen-3-alpha-video",
+      "source": "TechCrunch",
+      "description": "Runway has introduced Gen-3 Alpha, an AI video model capable of generating photorealistic clips with cinematic motion."
+    },
+    "article_b": {
+      "title": "Gen-3 Alpha text-to-video AI model released by Runway",
+      "url": "https://theverge.com/2024/6/17/runway-gen-3-alpha-announcement",
+      "source": "The Verge",
+      "description": "Runway announced Gen-3 Alpha, representing a major leap in video generation fidelity, temporal consistency, and prompt adherence."
+    },
+    "expected_cluster": true
+  },
+  {
+    "id": "pos_11_real_copilot_workspace",
+    "provenance": "real_collected",
+    "category": "same_event_different_sources",
+    "article_a": {
+      "title": "GitHub unveils Copilot Workspace technical preview for developers",
+      "url": "https://techcrunch.com/2024/04/29/github-copilot-workspace",
+      "source": "TechCrunch",
+      "description": "GitHub Copilot Workspace turns issue descriptions into actionable pull request specifications."
+    },
+    "article_b": {
+      "title": "Copilot Workspace preview announced by GitHub to automate development workflows",
+      "url": "https://theverge.com/2024/4/29/github-copilot-workspace-launch",
+      "source": "The Verge",
+      "description": "GitHub announced Copilot Workspace, a development environment designed to take an idea from issue to code automatically."
+    },
+    "expected_cluster": true
+  },
+  {
+    "id": "pos_12_real_alphafold3",
+    "provenance": "real_collected",
+    "category": "same_event_different_sources",
+    "article_a": {
+      "title": "Google DeepMind unveils AlphaFold 3 to predict structure of all life molecules",
+      "url": "https://arstechnica.com/science/2024/05/deepmind-alphafold-3",
+      "source": "Ars Technica",
+      "description": "DeepMind announced AlphaFold 3, expanding from proteins to DNA, RNA, and ligands with high structural accuracy."
+    },
+    "article_b": {
+      "title": "DeepMind releases AlphaFold 3 predicting molecular interactions across biology",
+      "url": "https://theverge.com/2024/5/8/google-deepmind-alphafold-3-biology",
+      "source": "The Verge",
+      "description": "AlphaFold 3 models interactions between proteins, DNA, RNA, and molecules to speed up drug discovery."
+    },
+    "expected_cluster": true
+  },
+  {
+    "id": "pos_13_real_gpt4o_omni",
+    "provenance": "real_collected",
+    "category": "same_event_different_sources",
+    "article_a": {
+      "title": "OpenAI announces GPT-4o with real-time audio and vision reasoning",
+      "url": "https://techcrunch.com/2024/05/13/openai-gpt-4o-spring-update",
+      "source": "TechCrunch",
+      "description": "OpenAI launched GPT-4o, its newest flagship model operating seamlessly across audio, vision, and text."
+    },
+    "article_b": {
+      "title": "OpenAI unveils GPT-4o with multimodal reasoning and faster inference",
+      "url": "https://theverge.com/2024/5/13/openai-gpt-4o-announcement",
+      "source": "The Verge",
+      "description": "OpenAI announced GPT-4o, bringing real-time voice, vision, and multimodal reasoning to all users."
+    },
+    "expected_cluster": true
+  },
+  {
+    "id": "pos_14_real_flux1_blackforest",
+    "provenance": "real_collected",
+    "category": "same_event_different_sources",
+    "article_a": {
+      "title": "Black Forest Labs launches FLUX.1 open text-to-image model suite",
+      "url": "https://huggingface.co/blog/flux-1",
+      "source": "Hugging Face Blog",
+      "description": "FLUX.1 models deliver state-of-the-art image quality and visual typography prompt following."
+    },
+    "article_b": {
+      "title": "FLUX.1 image generation models released by former Stability AI researchers",
+      "url": "https://arstechnica.com/ai/2024/08/flux-1-image-generation",
+      "source": "Ars Technica",
+      "description": "Black Forest Labs introduced FLUX.1 with Schnell, Dev, and Pro checkpoints challenging Midjourney."
+    },
+    "expected_cluster": true
+  },
+  {
+    "id": "pos_15_real_gemini_live",
+    "provenance": "real_collected",
+    "category": "same_event_different_sources",
+    "article_a": {
+      "title": "Google rolls out Gemini Live conversational voice mode for Android",
+      "url": "https://theverge.com/2024/8/13/google-gemini-live-pixel-9",
+      "source": "The Verge",
+      "description": "Gemini Live lets users hold natural free-flowing conversations with Google's AI assistant on Pixel devices."
+    },
+    "article_b": {
+      "title": "Gemini Live conversational voice assistant launched by Google Cloud",
+      "url": "https://techcrunch.com/2024/08/13/google-gemini-live-assistant",
+      "source": "TechCrunch",
+      "description": "Google announced Gemini Live, offering responsive speech-to-speech interaction for mobile Android users."
+    },
+    "expected_cluster": true
+  },
+  {
+    "id": "pos_16_real_sam2_meta",
+    "provenance": "real_collected",
+    "category": "same_event_different_sources",
+    "article_a": {
+      "title": "Meta releases SAM 2 Segment Anything in images and videos",
+      "url": "https://huggingface.co/blog/sam-2",
+      "source": "Hugging Face Blog",
+      "description": "Segment Anything Model 2 applies real-time promptable object segmentation across video frames."
+    },
+    "article_b": {
+      "title": "Meta open-sources SAM 2 for video and image segmentation",
+      "url": "https://theverge.com/2024/7/29/meta-sam-2-video-segmentation",
+      "source": "The Verge",
+      "description": "Meta has released SAM 2, capable of tracking and cutting out objects in full video streams in real time."
+    },
+    "expected_cluster": true
+  },
+  {
+    "id": "pos_17_real_codestral_mistral",
+    "provenance": "real_collected",
+    "category": "same_event_different_sources",
+    "article_a": {
+      "title": "Mistral AI releases Codestral generative model specifically for code generation",
+      "url": "https://techcrunch.com/2024/05/29/mistral-codestral-code-model",
+      "source": "TechCrunch",
+      "description": "Codestral is a 22B parameter open-weights model designed specifically for code synthesis and completion in 80+ languages."
+    },
+    "article_b": {
+      "title": "Mistral debuts Codestral open code model with 32k context window",
+      "url": "https://theverge.com/2024/5/29/mistral-codestral-announcement",
+      "source": "The Verge",
+      "description": "Mistral announced Codestral, an open-weights coding model benchmarked against CodeLlama."
+    },
+    "expected_cluster": true
+  },
+  {
+    "id": "pos_18_real_grok2_xai",
+    "provenance": "real_collected",
+    "category": "same_event_different_sources",
+    "article_a": {
+      "title": "xAI launches Grok 2 with Flux image generation on X",
+      "url": "https://theverge.com/2024/8/14/xai-grok-2-release",
+      "source": "The Verge",
+      "description": "Elon Musk's xAI released Grok 2 and Grok 2 mini with integrated FLUX image generation."
+    },
+    "article_b": {
+      "title": "xAI announces Grok 2 beta with enhanced reasoning benchmarks",
+      "url": "https://techcrunch.com/2024/08/14/xai-grok-2-beta",
+      "source": "TechCrunch",
+      "description": "Grok 2 is now rolling out to X Premium subscribers with upgraded vision and reasoning capabilities."
+    },
+    "expected_cluster": true
+  },
+  {
+    "id": "pos_19_real_command_r_plus",
+    "provenance": "real_collected",
+    "category": "same_event_different_sources",
+    "article_a": {
+      "title": "Cohere launches Command R+ enterprise model optimized for business automation",
+      "url": "https://techcrunch.com/2024/04/04/cohere-command-r-plus",
+      "source": "TechCrunch",
+      "description": "Command R+ is Cohere's flagship model tailored for enterprise RAG and multi-step agentic workflows."
+    },
+    "article_b": {
+      "title": "Command R+ released by Cohere for scalable enterprise RAG workloads",
+      "url": "https://theverge.com/2024/4/4/cohere-command-r-plus-launch",
+      "source": "The Verge",
+      "description": "Cohere announced Command R+, delivering state-of-the-art enterprise search and retrieval augmentation."
+    },
+    "expected_cluster": true
+  },
+  {
+    "id": "pos_20_real_midjourney_v61",
+    "provenance": "real_collected",
+    "category": "same_event_different_sources",
+    "article_a": {
+      "title": "Midjourney rolls out v6.1 model with improved coherence and textures",
+      "url": "https://theverge.com/2024/7/30/midjourney-v6-1-update",
+      "source": "The Verge",
+      "description": "Midjourney v6.1 brings sharper image rendering, better small-detail textures, and improved prompt accuracy."
+    },
+    "article_b": {
+      "title": "Midjourney v6.1 released with sharper image details and fewer artifacts",
+      "url": "https://techcrunch.com/2024/07/30/midjourney-v6-1-launch",
+      "source": "TechCrunch",
+      "description": "Midjourney has launched version 6.1 with reduced pixel artifacts and superior skin rendering."
+    },
+    "expected_cluster": true
+  },
+  {
+    "id": "pos_21_authored_gemini_2_0",
+    "provenance": "manually_authored",
+    "category": "same_event_different_sources",
+    "article_a": {
+      "title": "Google announces Gemini 2.0 experimental model with Flash thinking",
+      "url": "https://source-a.com/story-21",
+      "source": "Source Alpha",
+      "description": "Google announced gemini 2.0 offering high performance and new capabilities."
+    },
+    "article_b": {
+      "title": "Gemini 2.0 Flash thinking model launched by Google",
+      "url": "https://source-b.com/story-21",
+      "source": "Source Beta",
+      "description": "Google officially unveiled gemini 2.0 today for global developers."
+    },
+    "expected_cluster": true
+  },
+  {
+    "id": "pos_22_authored_claude_3_5_haiku",
+    "provenance": "manually_authored",
+    "category": "same_event_different_sources",
+    "article_a": {
+      "title": "Anthropic introduces Claude 3.5 Haiku with lightning fast response latency",
+      "url": "https://source-a.com/story-22",
+      "source": "Source Alpha",
+      "description": "Anthropic announced claude 3.5 haiku offering high performance and new capabilities."
+    },
+    "article_b": {
+      "title": "Claude 3.5 Haiku released by Anthropic for low-latency workloads",
+      "url": "https://source-b.com/story-22",
+      "source": "Source Beta",
+      "description": "Anthropic officially unveiled claude 3.5 haiku today for global developers."
+    },
+    "expected_cluster": true
+  },
+  {
+    "id": "pos_23_authored_sora",
+    "provenance": "manually_authored",
+    "category": "same_event_different_sources",
+    "article_a": {
+      "title": "OpenAI debuts Sora video generation model to select creative artists",
+      "url": "https://source-a.com/story-23",
+      "source": "Source Alpha",
+      "description": "Openai announced sora offering high performance and new capabilities."
+    },
+    "article_b": {
+      "title": "Sora text-to-video AI model unveiled by OpenAI",
+      "url": "https://source-b.com/story-23",
+      "source": "Source Beta",
+      "description": "Openai officially unveiled sora today for global developers."
+    },
+    "expected_cluster": true
+  },
+  {
+    "id": "pos_24_authored_llama_3_3",
+    "provenance": "manually_authored",
+    "category": "same_event_different_sources",
+    "article_a": {
+      "title": "Meta releases Llama 3.3 70B matching Llama 3.1 405B capabilities",
+      "url": "https://source-a.com/story-24",
+      "source": "Source Alpha",
+      "description": "Meta announced llama 3.3 offering high performance and new capabilities."
+    },
+    "article_b": {
+      "title": "Llama 3.3 70B open weights model launched by Meta AI",
+      "url": "https://source-b.com/story-24",
+      "source": "Source Beta",
+      "description": "Meta officially unveiled llama 3.3 today for global developers."
+    },
+    "expected_cluster": true
+  },
+  {
+    "id": "pos_25_authored_deepseek-v3",
+    "provenance": "manually_authored",
+    "category": "same_event_different_sources",
+    "article_a": {
+      "title": "DeepSeek launches DeepSeek-V3 671B mixture-of-experts architecture",
+      "url": "https://source-a.com/story-25",
+      "source": "Source Alpha",
+      "description": "Deepseek announced deepseek-v3 offering high performance and new capabilities."
+    },
+    "article_b": {
+      "title": "DeepSeek-V3 open MoE model released by DeepSeek AI",
+      "url": "https://source-b.com/story-25",
+      "source": "Source Beta",
+      "description": "Deepseek officially unveiled deepseek-v3 today for global developers."
+    },
+    "expected_cluster": true
+  },
+  {
+    "id": "pos_26_authored_o3-mini",
+    "provenance": "manually_authored",
+    "category": "same_event_different_sources",
+    "article_a": {
+      "title": "OpenAI announces o3-mini reasoning model optimized for math and coding",
+      "url": "https://source-a.com/story-26",
+      "source": "Source Alpha",
+      "description": "Openai announced o3-mini offering high performance and new capabilities."
+    },
+    "article_b": {
+      "title": "o3-mini lightweight reasoning model unveiled by OpenAI",
+      "url": "https://source-b.com/story-26",
+      "source": "Source Beta",
+      "description": "Openai officially unveiled o3-mini today for global developers."
+    },
+    "expected_cluster": true
+  },
+  {
+    "id": "pos_27_authored_pixtral",
+    "provenance": "manually_authored",
+    "category": "same_event_different_sources",
+    "article_a": {
+      "title": "Mistral AI introduces Pixtral 12B multimodal image reasoning model",
+      "url": "https://source-a.com/story-27",
+      "source": "Source Alpha",
+      "description": "Mistral announced pixtral offering high performance and new capabilities."
+    },
+    "article_b": {
+      "title": "Pixtral 12B open vision model launched by Mistral AI",
+      "url": "https://source-b.com/story-27",
+      "source": "Source Beta",
+      "description": "Mistral officially unveiled pixtral today for global developers."
+    },
+    "expected_cluster": true
+  },
+  {
+    "id": "pos_28_authored_copilot_studio",
+    "provenance": "manually_authored",
+    "category": "same_event_different_sources",
+    "article_a": {
+      "title": "Microsoft unveils Copilot Studio autonomous agents for enterprise workflows",
+      "url": "https://source-a.com/story-28",
+      "source": "Source Alpha",
+      "description": "Microsoft announced copilot studio offering high performance and new capabilities."
+    },
+    "article_b": {
+      "title": "Copilot Studio autonomous agent creation tools announced by Microsoft",
+      "url": "https://source-b.com/story-28",
+      "source": "Source Beta",
+      "description": "Microsoft officially unveiled copilot studio today for global developers."
+    },
+    "expected_cluster": true
+  },
+  {
+    "id": "pos_29_authored_gemma_2",
+    "provenance": "manually_authored",
+    "category": "same_event_different_sources",
+    "article_a": {
+      "title": "Google DeepMind releases Gemma 2 lightweight open models",
+      "url": "https://source-a.com/story-29",
+      "source": "Source Alpha",
+      "description": "Google announced gemma 2 offering high performance and new capabilities."
+    },
+    "article_b": {
+      "title": "Gemma 2 open weights models launched by Google in 9B and 27B sizes",
+      "url": "https://source-b.com/story-29",
+      "source": "Source Beta",
+      "description": "Google officially unveiled gemma 2 today for global developers."
+    },
+    "expected_cluster": true
+  },
+  {
+    "id": "pos_30_authored_gen-3_alpha",
+    "provenance": "manually_authored",
+    "category": "same_event_different_sources",
+    "article_a": {
+      "title": "Runway announces Gen-3 Alpha video-to-video creative control tools",
+      "url": "https://source-a.com/story-30",
+      "source": "Source Alpha",
+      "description": "Runway announced gen-3 alpha offering high performance and new capabilities."
+    },
+    "article_b": {
+      "title": "Gen-3 Alpha video-to-video mode released by Runway",
+      "url": "https://source-b.com/story-30",
+      "source": "Source Beta",
+      "description": "Runway officially unveiled gen-3 alpha today for global developers."
+    },
+    "expected_cluster": true
+  },
+  {
+    "id": "pos_31_authored_apple_intelligence",
+    "provenance": "manually_authored",
+    "category": "same_event_different_sources",
+    "article_a": {
+      "title": "Apple Intelligence writing tools roll out across developer beta channels",
+      "url": "https://source-a.com/story-31",
+      "source": "Source Alpha",
+      "description": "Apple announced apple intelligence offering high performance and new capabilities."
+    },
+    "article_b": {
+      "title": "Apple releases developer beta featuring Apple Intelligence writing tools",
+      "url": "https://source-b.com/story-31",
+      "source": "Source Beta",
+      "description": "Apple officially unveiled apple intelligence today for global developers."
+    },
+    "expected_cluster": true
+  },
+  {
+    "id": "pos_32_authored_chatgpt",
+    "provenance": "manually_authored",
+    "category": "same_event_different_sources",
+    "article_a": {
+      "title": "OpenAI announces ChatGPT search feature available to all paid subscribers",
+      "url": "https://source-a.com/story-32",
+      "source": "Source Alpha",
+      "description": "Openai announced chatgpt offering high performance and new capabilities."
+    },
+    "article_b": {
+      "title": "ChatGPT search launched by OpenAI integrating real-time web citations",
+      "url": "https://source-b.com/story-32",
+      "source": "Source Beta",
+      "description": "Openai officially unveiled chatgpt today for global developers."
+    },
+    "expected_cluster": true
+  },
+  {
+    "id": "pos_33_authored_stable_diffusion",
+    "provenance": "manually_authored",
+    "category": "same_event_different_sources",
+    "article_a": {
+      "title": "Stability AI debuts Stable Diffusion 3.5 Medium and Large checkpoints",
+      "url": "https://source-a.com/story-33",
+      "source": "Source Alpha",
+      "description": "Stability Ai announced stable diffusion offering high performance and new capabilities."
+    },
+    "article_b": {
+      "title": "Stable Diffusion 3.5 released with customized creative license",
+      "url": "https://source-b.com/story-33",
+      "source": "Source Beta",
+      "description": "Stability Ai officially unveiled stable diffusion today for global developers."
+    },
+    "expected_cluster": true
+  },
+  {
+    "id": "pos_34_authored_cursor",
+    "provenance": "manually_authored",
+    "category": "same_event_different_sources",
+    "article_a": {
+      "title": "Cursor AI code editor adds background agentic bug fixing features",
+      "url": "https://source-a.com/story-34",
+      "source": "Source Alpha",
+      "description": "Cursor announced cursor offering high performance and new capabilities."
+    },
+    "article_b": {
+      "title": "Cursor introduces autonomous agent mode for multi-file codebase edits",
+      "url": "https://source-b.com/story-34",
+      "source": "Source Beta",
+      "description": "Cursor officially unveiled cursor today for global developers."
+    },
+    "expected_cluster": true
+  },
+  {
+    "id": "pos_35_authored_smollm2",
+    "provenance": "manually_authored",
+    "category": "same_event_different_sources",
+    "article_a": {
+      "title": "Hugging Face launches SmolLM2 compact models for mobile edge inference",
+      "url": "https://source-a.com/story-35",
+      "source": "Source Alpha",
+      "description": "Hugging Face announced smollm2 offering high performance and new capabilities."
+    },
+    "article_b": {
+      "title": "SmolLM2 ultra-compact model family released by Hugging Face",
+      "url": "https://source-b.com/story-35",
+      "source": "Source Beta",
+      "description": "Hugging Face officially unveiled smollm2 today for global developers."
+    },
+    "expected_cluster": true
+  },
+  {
+    "id": "pos_36_authored_perplexity",
+    "provenance": "manually_authored",
+    "category": "same_event_different_sources",
+    "article_a": {
+      "title": "Perplexity AI introduces internal search engine feature for enterprise",
+      "url": "https://source-a.com/story-36",
+      "source": "Source Alpha",
+      "description": "Perplexity announced perplexity offering high performance and new capabilities."
+    },
+    "article_b": {
+      "title": "Perplexity launches enterprise knowledge search tool",
+      "url": "https://source-b.com/story-36",
+      "source": "Source Beta",
+      "description": "Perplexity officially unveiled perplexity today for global developers."
+    },
+    "expected_cluster": true
+  },
+  {
+    "id": "pos_37_authored_command_r",
+    "provenance": "manually_authored",
+    "category": "same_event_different_sources",
+    "article_a": {
+      "title": "Cohere releases Command R fine-tuning capabilities for private enterprise clouds",
+      "url": "https://source-a.com/story-37",
+      "source": "Source Alpha",
+      "description": "Cohere announced command r offering high performance and new capabilities."
+    },
+    "article_b": {
+      "title": "Command R model customization launched by Cohere on AWS Bedrock",
+      "url": "https://source-b.com/story-37",
+      "source": "Source Beta",
+      "description": "Cohere officially unveiled command r today for global developers."
+    },
+    "expected_cluster": true
+  },
+  {
+    "id": "pos_38_authored_claude_3_5_sonnet",
+    "provenance": "manually_authored",
+    "category": "same_event_different_sources",
+    "article_a": {
+      "title": "Anthropic introduces Computer Use capability for Claude 3.5 Sonnet",
+      "url": "https://source-a.com/story-38",
+      "source": "Source Alpha",
+      "description": "Anthropic announced claude 3.5 sonnet offering high performance and new capabilities."
+    },
+    "article_b": {
+      "title": "Claude 3.5 Sonnet gains Computer Use API to interact with mouse and keyboard",
+      "url": "https://source-b.com/story-38",
+      "source": "Source Beta",
+      "description": "Anthropic officially unveiled claude 3.5 sonnet today for global developers."
+    },
+    "expected_cluster": true
+  },
+  {
+    "id": "pos_39_authored_whisper",
+    "provenance": "manually_authored",
+    "category": "same_event_different_sources",
+    "article_a": {
+      "title": "OpenAI releases Whisper v3 Turbo speech recognition model on Hugging Face",
+      "url": "https://source-a.com/story-39",
+      "source": "Source Alpha",
+      "description": "Openai announced whisper offering high performance and new capabilities."
+    },
+    "article_b": {
+      "title": "Whisper v3 Turbo released by OpenAI for real-time transcription",
+      "url": "https://source-b.com/story-39",
+      "source": "Source Beta",
+      "description": "Openai officially unveiled whisper today for global developers."
+    },
+    "expected_cluster": true
+  },
+  {
+    "id": "pos_40_authored_veo",
+    "provenance": "manually_authored",
+    "category": "same_event_different_sources",
+    "article_a": {
+      "title": "Google DeepMind announces Veo high-definition generative video model",
+      "url": "https://source-a.com/story-40",
+      "source": "Source Alpha",
+      "description": "Google announced veo offering high performance and new capabilities."
+    },
+    "article_b": {
+      "title": "Veo generative 1080p video model unveiled by Google",
+      "url": "https://source-b.com/story-40",
+      "source": "Source Beta",
+      "description": "Google officially unveiled veo today for global developers."
+    },
+    "expected_cluster": true
+  },
+  {
+    "id": "pos_41_authored_llama_3",
+    "provenance": "manually_authored",
+    "category": "same_event_different_sources",
+    "article_a": {
+      "title": "Meta releases Llama 3 8B and 70B foundational open-weights models",
+      "url": "https://source-a.com/story-41",
+      "source": "Source Alpha",
+      "description": "Meta announced llama 3 offering high performance and new capabilities."
+    },
+    "article_b": {
+      "title": "Llama 3 open models launched by Meta with upgraded tokenizer",
+      "url": "https://source-b.com/story-41",
+      "source": "Source Beta",
+      "description": "Meta officially unveiled llama 3 today for global developers."
+    },
+    "expected_cluster": true
+  },
+  {
+    "id": "pos_42_authored_mixtral_8x22b",
+    "provenance": "manually_authored",
+    "category": "same_event_different_sources",
+    "article_a": {
+      "title": "Mistral AI debuts Mixtral 8x22B open mixture of experts model",
+      "url": "https://source-a.com/story-42",
+      "source": "Source Alpha",
+      "description": "Mistral announced mixtral 8x22b offering high performance and new capabilities."
+    },
+    "article_b": {
+      "title": "Mixtral 8x22B released by Mistral AI with 65k context window",
+      "url": "https://source-b.com/story-42",
+      "source": "Source Beta",
+      "description": "Mistral officially unveiled mixtral 8x22b today for global developers."
+    },
+    "expected_cluster": true
+  },
+  {
+    "id": "pos_43_authored_deepseek_coder",
+    "provenance": "manually_authored",
+    "category": "same_event_different_sources",
+    "article_a": {
+      "title": "DeepSeek releases DeepSeek Coder V2 supporting 338 programming languages",
+      "url": "https://source-a.com/story-43",
+      "source": "Source Alpha",
+      "description": "Deepseek announced deepseek coder offering high performance and new capabilities."
+    },
+    "article_b": {
+      "title": "DeepSeek Coder V2 launched by DeepSeek with open weights",
+      "url": "https://source-b.com/story-43",
+      "source": "Source Beta",
+      "description": "Deepseek officially unveiled deepseek coder today for global developers."
+    },
+    "expected_cluster": true
+  },
+  {
+    "id": "pos_44_authored_dall-e_3",
+    "provenance": "manually_authored",
+    "category": "same_event_different_sources",
+    "article_a": {
+      "title": "OpenAI announces DALL-E 3 image editor integration within ChatGPT",
+      "url": "https://source-a.com/story-44",
+      "source": "Source Alpha",
+      "description": "Openai announced dall-e 3 offering high performance and new capabilities."
+    },
+    "article_b": {
+      "title": "DALL-E 3 editing tools launched by OpenAI for mobile and web",
+      "url": "https://source-b.com/story-44",
+      "source": "Source Beta",
+      "description": "Openai officially unveiled dall-e 3 today for global developers."
+    },
+    "expected_cluster": true
+  },
+  {
+    "id": "pos_45_authored_qwen",
+    "provenance": "manually_authored",
+    "category": "same_event_different_sources",
+    "article_a": {
+      "title": "Alibaba Cloud releases Qwen 2.5 open model collection across all sizes",
+      "url": "https://source-a.com/story-45",
+      "source": "Source Alpha",
+      "description": "Alibaba announced qwen offering high performance and new capabilities."
+    },
+    "article_b": {
+      "title": "Qwen 2.5 foundational models launched by Alibaba with 128k context",
+      "url": "https://source-b.com/story-45",
+      "source": "Source Beta",
+      "description": "Alibaba officially unveiled qwen today for global developers."
+    },
+    "expected_cluster": true
+  },
+  {
+    "id": "pos_46_authored_gemini_1_5_flash",
+    "provenance": "manually_authored",
+    "category": "same_event_different_sources",
+    "article_a": {
+      "title": "Google announces Gemini 1.5 Flash lightweight model for speed and efficiency",
+      "url": "https://source-a.com/story-46",
+      "source": "Source Alpha",
+      "description": "Google announced gemini 1.5 flash offering high performance and new capabilities."
+    },
+    "article_b": {
+      "title": "Gemini 1.5 Flash launched by Google Cloud for high-frequency tasks",
+      "url": "https://source-b.com/story-46",
+      "source": "Source Beta",
+      "description": "Google officially unveiled gemini 1.5 flash today for global developers."
+    },
+    "expected_cluster": true
+  },
+  {
+    "id": "pos_47_authored_apple_intelligence",
+    "provenance": "manually_authored",
+    "category": "same_event_different_sources",
+    "article_a": {
+      "title": "Apple Intelligence expands Siri contextual personal data understanding",
+      "url": "https://source-a.com/story-47",
+      "source": "Source Alpha",
+      "description": "Apple announced apple intelligence offering high performance and new capabilities."
+    },
+    "article_b": {
+      "title": "Siri enhanced with Apple Intelligence on-device semantic index",
+      "url": "https://source-b.com/story-47",
+      "source": "Source Beta",
+      "description": "Apple officially unveiled apple intelligence today for global developers."
+    },
+    "expected_cluster": true
+  },
+  {
+    "id": "pos_48_authored_claude",
+    "provenance": "manually_authored",
+    "category": "same_event_different_sources",
+    "article_a": {
+      "title": "Anthropic launches Claude Enterprise plan with 500k context window",
+      "url": "https://source-a.com/story-48",
+      "source": "Source Alpha",
+      "description": "Anthropic announced claude offering high performance and new capabilities."
+    },
+    "article_b": {
+      "title": "Claude Enterprise tier announced by Anthropic for corporate teams",
+      "url": "https://source-b.com/story-48",
+      "source": "Source Beta",
+      "description": "Anthropic officially unveiled claude today for global developers."
+    },
+    "expected_cluster": true
+  },
+  {
+    "id": "pos_49_authored_ernie",
+    "provenance": "manually_authored",
+    "category": "same_event_different_sources",
+    "article_a": {
+      "title": "Baidu unveils Ernie 4.0 Turbo with faster inference and lower cost",
+      "url": "https://source-a.com/story-49",
+      "source": "Source Alpha",
+      "description": "Baidu announced ernie offering high performance and new capabilities."
+    },
+    "article_b": {
+      "title": "Ernie 4.0 Turbo enterprise model launched by Baidu",
+      "url": "https://source-b.com/story-49",
+      "source": "Source Beta",
+      "description": "Baidu officially unveiled ernie today for global developers."
+    },
+    "expected_cluster": true
+  },
+  {
+    "id": "pos_50_authored_reasoning_model",
+    "provenance": "manually_authored",
+    "category": "same_event_different_sources",
+    "article_a": {
+      "title": "Company X releases a new reasoning model for mathematical tasks",
+      "url": "https://source-a.com/story-50",
+      "source": "Source Alpha",
+      "description": "Company X announced reasoning model offering high performance and new capabilities."
+    },
+    "article_b": {
+      "title": "Company X announces its latest AI model with reasoning capabilities",
+      "url": "https://source-b.com/story-50",
+      "source": "Source Beta",
+      "description": "Company X officially unveiled reasoning model today for global developers."
+    },
+    "expected_cluster": true
+  },
+  {
+    "id": "neg_01_real_openai_o1_vs_searchgpt",
+    "provenance": "real_collected",
+    "category": "same_company_different_products",
+    "article_a": {
+      "title": "OpenAI launches o1 reasoning model with enhanced problem-solving",
+      "url": "https://techcrunch.com/2024/09/12/openai-o1-reasoning",
+      "source": "TechCrunch",
+      "description": "OpenAI has officially launched o1, a new series of AI models designed to spend more time thinking before responding."
+    },
+    "article_b": {
+      "title": "OpenAI announces SearchGPT prototype for web search with direct citations",
+      "url": "https://techcrunch.com/2024/07/25/openai-searchgpt-ai-search",
+      "source": "TechCrunch",
+      "description": "SearchGPT will combine conversational AI with up-to-date web information and publisher citations."
+    },
+    "expected_cluster": false
+  },
+  {
+    "id": "neg_02_real_openai_o1_vs_funding",
+    "provenance": "real_collected",
+    "category": "same_company_funding_vs_release",
+    "article_a": {
+      "title": "OpenAI launches o1 reasoning model with enhanced problem-solving",
+      "url": "https://techcrunch.com/2024/09/12/openai-o1-reasoning",
+      "source": "TechCrunch",
+      "description": "OpenAI has officially launched o1, a new series of AI models designed to spend more time thinking."
+    },
+    "article_b": {
+      "title": "OpenAI closes $6.6 billion funding round at $157 billion valuation",
+      "url": "https://theverge.com/2024/10/2/openai-6-6-billion-funding-round",
+      "source": "The Verge",
+      "description": "OpenAI has completed a $6.6 billion financing round, giving the company a massive $157 billion post-money valuation."
+    },
+    "expected_cluster": false
+  },
+  {
+    "id": "neg_03_real_claude_sonnet_vs_haiku",
+    "provenance": "real_collected",
+    "category": "same_company_different_submodels",
+    "article_a": {
+      "title": "Anthropic releases Claude 3.5 Sonnet with state-of-the-art coding abilities",
+      "url": "https://arstechnica.com/information-technology/2024/06/anthropic-claude-3-5-sonnet",
+      "source": "Ars Technica",
+      "description": "Anthropic announced Claude 3.5 Sonnet, demonstrating major improvements in benchmarks for coding."
+    },
+    "article_b": {
+      "title": "Anthropic introduces Claude 3.5 Haiku for fast lightweight tasks",
+      "url": "https://techcrunch.com/2024/10/22/anthropic-claude-3-5-haiku",
+      "source": "TechCrunch",
+      "description": "Claude 3.5 Haiku is Anthropic newest compact model engineered for high speed, low latency, and cost efficiency."
+    },
+    "expected_cluster": false
+  },
+  {
+    "id": "neg_04_real_gemini_vs_gpt4o",
+    "provenance": "real_collected",
+    "category": "different_companies_similar_buzzwords",
+    "article_a": {
+      "title": "Google announces Gemini 1.5 Pro with multimodal reasoning capabilities",
+      "url": "https://techcrunch.com/2024/05/14/google-gemini-1-5-pro-update",
+      "source": "TechCrunch",
+      "description": "Google announced Gemini 1.5 Pro with long context window and multimodal reasoning capabilities."
+    },
+    "article_b": {
+      "title": "OpenAI unveils GPT-4o with multimodal reasoning and faster inference",
+      "url": "https://theverge.com/2024/5/13/openai-gpt-4o-announcement",
+      "source": "The Verge",
+      "description": "OpenAI announced GPT-4o, bringing real-time voice, vision, and multimodal reasoning to all users."
+    },
+    "expected_cluster": false
+  },
+  {
+    "id": "neg_05_real_llama_32_vs_31",
+    "provenance": "real_collected",
+    "category": "same_company_different_versions",
+    "article_a": {
+      "title": "Meta releases Llama 3.2 with lightweight multimodal vision capabilities",
+      "url": "https://theverge.com/2024/9/25/meta-llama-3-2-vision",
+      "source": "The Verge",
+      "description": "Meta has released Llama 3.2, including small multimodal models designed to run locally on mobile hardware."
+    },
+    "article_b": {
+      "title": "Meta releases Llama 3.1 with 405B parameters and enhanced benchmarks",
+      "url": "https://arstechnica.com/ai/2024/07/meta-llama-3-1-405b",
+      "source": "Ars Technica",
+      "description": "Meta announced Llama 3.1, highlighted by its flagship 405-billion parameter open-weights model."
+    },
+    "expected_cluster": false
+  },
+  {
+    "id": "neg_06_real_deepseek_r1_vs_v3",
+    "provenance": "real_collected",
+    "category": "same_company_different_products",
+    "article_a": {
+      "title": "DeepSeek releases open reasoning model DeepSeek-R1",
+      "url": "https://arstechnica.com/ai/2025/01/deepseek-r1-open-weights",
+      "source": "Ars Technica",
+      "description": "DeepSeek has launched DeepSeek-R1 with open weights, demonstrating reasoning through reinforcement learning."
+    },
+    "article_b": {
+      "title": "DeepSeek launches DeepSeek-V3 large mixture-of-experts model",
+      "url": "https://huggingface.co/blog/deepseek-v3",
+      "source": "Hugging Face Blog",
+      "description": "DeepSeek-V3 is a 671B parameter mixture-of-experts model trained on 14.8 trillion tokens."
+    },
+    "expected_cluster": false
+  },
+  {
+    "id": "neg_07_real_nvidia_chip_vs_openai_model",
+    "provenance": "real_collected",
+    "category": "hardware_vs_software",
+    "article_a": {
+      "title": "NVIDIA announces Blackwell B200 AI GPUs entering volume production",
+      "url": "https://arstechnica.com/gadgets/2024/03/nvidia-blackwell-gpu",
+      "source": "Ars Technica",
+      "description": "NVIDIA unveiled Blackwell B200 GPUs delivering 20 petaflops of FP4 compute for generative AI."
+    },
+    "article_b": {
+      "title": "OpenAI launches o1 reasoning model with enhanced problem-solving",
+      "url": "https://techcrunch.com/2024/09/12/openai-o1-reasoning",
+      "source": "TechCrunch",
+      "description": "OpenAI has officially launched o1, a new series of AI models designed to think before answering."
+    },
+    "expected_cluster": false
+  },
+  {
+    "id": "neg_08_real_anthropic_lawsuit_vs_sonnet_release",
+    "provenance": "real_collected",
+    "category": "same_company_legal_vs_release",
+    "article_a": {
+      "title": "Authors file copyright lawsuit against Anthropic over AI training data",
+      "url": "https://theverge.com/2024/8/19/anthropic-copyright-lawsuit",
+      "source": "The Verge",
+      "description": "A group of authors has filed a class-action lawsuit accusing Anthropic of copyright infringement in training Claude."
+    },
+    "article_b": {
+      "title": "Anthropic releases Claude 3.5 Sonnet with state-of-the-art coding abilities",
+      "url": "https://arstechnica.com/information-technology/2024/06/anthropic-claude-3-5-sonnet",
+      "source": "Ars Technica",
+      "description": "Anthropic announced Claude 3.5 Sonnet, demonstrating major improvements in benchmarks for coding."
+    },
+    "expected_cluster": false
+  },
+  {
+    "id": "neg_09_real_openai_executive_departure_vs_o1",
+    "provenance": "real_collected",
+    "category": "same_company_executive_vs_release",
+    "article_a": {
+      "title": "OpenAI co-founder Ilya Sutskever departs to launch Safe Superintelligence",
+      "url": "https://theverge.com/2024/5/14/ilya-sutskever-leaves-openai",
+      "source": "The Verge",
+      "description": "Ilya Sutskever has officially resigned from OpenAI to found a new startup focused exclusively on safe superintelligence."
+    },
+    "article_b": {
+      "title": "OpenAI launches o1 reasoning model with enhanced problem-solving",
+      "url": "https://techcrunch.com/2024/09/12/openai-o1-reasoning",
+      "source": "TechCrunch",
+      "description": "OpenAI has officially launched o1, a new series of AI models designed to spend more time thinking."
+    },
+    "expected_cluster": false
+  },
+  {
+    "id": "neg_10_real_mistral_large_vs_codestral",
+    "provenance": "real_collected",
+    "category": "same_company_different_products",
+    "article_a": {
+      "title": "Mistral AI debuts Mistral Large 2 with 128k context and advanced multilingual support",
+      "url": "https://techcrunch.com/2024/07/24/mistral-large-2-release",
+      "source": "TechCrunch",
+      "description": "French startup Mistral AI unveiled Mistral Large 2, a 123-billion parameter model for enterprise."
+    },
+    "article_b": {
+      "title": "Mistral releases Codestral generative model specifically for code generation",
+      "url": "https://techcrunch.com/2024/05/29/mistral-codestral-code-model",
+      "source": "TechCrunch",
+      "description": "Codestral is a 22B parameter open-weights model designed specifically for code synthesis and completion in 80+ languages."
+    },
+    "expected_cluster": false
+  },
+  {
+    "id": "neg_11_authored_same_company_different_versions",
+    "provenance": "manually_authored",
+    "category": "same_company_different_versions",
+    "article_a": {
+      "title": "Google launches Gemini 2.0 with multimodal streaming",
+      "url": "https://source-neg-a.com/item-11",
+      "source": "Source Neg A",
+      "description": "Gemini 2.0 announced"
+    },
+    "article_b": {
+      "title": "Google releases Gemini 1.5 Pro update",
+      "url": "https://source-neg-b.com/item-11",
+      "source": "Source Neg B",
+      "description": "Gemini 1.5 Pro update"
+    },
+    "expected_cluster": false
+  },
+  {
+    "id": "neg_12_authored_same_company_different_versions",
+    "provenance": "manually_authored",
+    "category": "same_company_different_versions",
+    "article_a": {
+      "title": "Anthropic announces Claude 3 Opus flagship intelligence",
+      "url": "https://source-neg-a.com/item-12",
+      "source": "Source Neg A",
+      "description": "Claude 3 Opus model"
+    },
+    "article_b": {
+      "title": "Anthropic releases Claude 3.5 Sonnet",
+      "url": "https://source-neg-b.com/item-12",
+      "source": "Source Neg B",
+      "description": "Claude 3.5 Sonnet model"
+    },
+    "expected_cluster": false
+  },
+  {
+    "id": "neg_13_authored_same_company_different_versions",
+    "provenance": "manually_authored",
+    "category": "same_company_different_versions",
+    "article_a": {
+      "title": "Meta announces Llama 3.3 70B open model",
+      "url": "https://source-neg-a.com/item-13",
+      "source": "Source Neg A",
+      "description": "Llama 3.3 launched"
+    },
+    "article_b": {
+      "title": "Meta releases Llama 3.2 on-device model",
+      "url": "https://source-neg-b.com/item-13",
+      "source": "Source Neg B",
+      "description": "Llama 3.2 launched"
+    },
+    "expected_cluster": false
+  },
+  {
+    "id": "neg_14_authored_same_company_different_versions",
+    "provenance": "manually_authored",
+    "category": "same_company_different_versions",
+    "article_a": {
+      "title": "OpenAI releases o3-mini reasoning model",
+      "url": "https://source-neg-a.com/item-14",
+      "source": "Source Neg A",
+      "description": "o3-mini launched"
+    },
+    "article_b": {
+      "title": "OpenAI releases o1 reasoning model",
+      "url": "https://source-neg-b.com/item-14",
+      "source": "Source Neg B",
+      "description": "o1 launched"
+    },
+    "expected_cluster": false
+  },
+  {
+    "id": "neg_15_authored_same_company_different_products",
+    "provenance": "manually_authored",
+    "category": "same_company_different_products",
+    "article_a": {
+      "title": "Mistral AI introduces Pixtral 12B vision model",
+      "url": "https://source-neg-a.com/item-15",
+      "source": "Source Neg A",
+      "description": "Pixtral 12B launched"
+    },
+    "article_b": {
+      "title": "Mistral AI releases Mistral Nemo 12B text model",
+      "url": "https://source-neg-b.com/item-15",
+      "source": "Source Neg B",
+      "description": "Mistral Nemo launched"
+    },
+    "expected_cluster": false
+  },
+  {
+    "id": "neg_16_authored_same_company_different_products",
+    "provenance": "manually_authored",
+    "category": "same_company_different_products",
+    "article_a": {
+      "title": "Google announces Gemma 2 open models",
+      "url": "https://source-neg-a.com/item-16",
+      "source": "Source Neg A",
+      "description": "Gemma 2 announced"
+    },
+    "article_b": {
+      "title": "Google unveils Gemini 1.5 Flash",
+      "url": "https://source-neg-b.com/item-16",
+      "source": "Source Neg B",
+      "description": "Gemini 1.5 Flash announced"
+    },
+    "expected_cluster": false
+  },
+  {
+    "id": "neg_17_authored_different_companies_similar_buzzwords",
+    "provenance": "manually_authored",
+    "category": "different_companies_similar_buzzwords",
+    "article_a": {
+      "title": "Apple unveils Apple Intelligence generative tools",
+      "url": "https://source-neg-a.com/item-17",
+      "source": "Source Neg A",
+      "description": "Apple Intelligence announced"
+    },
+    "article_b": {
+      "title": "Google rolls out Gemini Live conversational assistant",
+      "url": "https://source-neg-b.com/item-17",
+      "source": "Source Neg B",
+      "description": "Gemini Live announced"
+    },
+    "expected_cluster": false
+  },
+  {
+    "id": "neg_18_authored_different_companies_similar_buzzwords",
+    "provenance": "manually_authored",
+    "category": "different_companies_similar_buzzwords",
+    "article_a": {
+      "title": "OpenAI closes $6.6B financing round",
+      "url": "https://source-neg-a.com/item-18",
+      "source": "Source Neg A",
+      "description": "OpenAI raises funding"
+    },
+    "article_b": {
+      "title": "Anthropic raises $4 billion from Amazon",
+      "url": "https://source-neg-b.com/item-18",
+      "source": "Source Neg B",
+      "description": "Anthropic funding round"
+    },
+    "expected_cluster": false
+  },
+  {
+    "id": "neg_19_authored_different_companies_similar_buzzwords",
+    "provenance": "manually_authored",
+    "category": "different_companies_similar_buzzwords",
+    "article_a": {
+      "title": "Microsoft Copilot Studio adds autonomous agents",
+      "url": "https://source-neg-a.com/item-19",
+      "source": "Source Neg A",
+      "description": "Copilot Studio launched"
+    },
+    "article_b": {
+      "title": "OpenAI launches o1 reasoning model",
+      "url": "https://source-neg-b.com/item-19",
+      "source": "Source Neg B",
+      "description": "o1 model launched"
+    },
+    "expected_cluster": false
+  },
+  {
+    "id": "neg_20_authored_different_companies_similar_buzzwords",
+    "provenance": "manually_authored",
+    "category": "different_companies_similar_buzzwords",
+    "article_a": {
+      "title": "xAI launches Grok 2 on X platform",
+      "url": "https://source-neg-a.com/item-20",
+      "source": "Source Neg A",
+      "description": "Grok 2 launched"
+    },
+    "article_b": {
+      "title": "OpenAI unveils GPT-4o multimodal model",
+      "url": "https://source-neg-b.com/item-20",
+      "source": "Source Neg B",
+      "description": "GPT-4o launched"
+    },
+    "expected_cluster": false
+  },
+  {
+    "id": "neg_21_authored_same_company_funding_vs_release",
+    "provenance": "manually_authored",
+    "category": "same_company_funding_vs_release",
+    "article_a": {
+      "title": "Amazon AWS invests $4 billion in Anthropic",
+      "url": "https://source-neg-a.com/item-21",
+      "source": "Source Neg A",
+      "description": "AWS investment in Anthropic"
+    },
+    "article_b": {
+      "title": "Anthropic releases Claude 3.5 Sonnet",
+      "url": "https://source-neg-b.com/item-21",
+      "source": "Source Neg B",
+      "description": "Claude 3.5 Sonnet release"
+    },
+    "expected_cluster": false
+  },
+  {
+    "id": "neg_22_authored_same_company_legal_vs_release",
+    "provenance": "manually_authored",
+    "category": "same_company_legal_vs_release",
+    "article_a": {
+      "title": "Google sues copyright licensing groups over AI data",
+      "url": "https://source-neg-a.com/item-22",
+      "source": "Source Neg A",
+      "description": "Google antitrust lawsuit"
+    },
+    "article_b": {
+      "title": "Google announces Gemini 1.5 Pro",
+      "url": "https://source-neg-b.com/item-22",
+      "source": "Source Neg B",
+      "description": "Gemini 1.5 Pro launch"
+    },
+    "expected_cluster": false
+  },
+  {
+    "id": "neg_23_authored_same_company_executive_vs_release",
+    "provenance": "manually_authored",
+    "category": "same_company_executive_vs_release",
+    "article_a": {
+      "title": "OpenAI CTO Mira Murati resigns from company",
+      "url": "https://source-neg-a.com/item-23",
+      "source": "Source Neg A",
+      "description": "Mira Murati departs OpenAI"
+    },
+    "article_b": {
+      "title": "OpenAI announces SearchGPT prototype",
+      "url": "https://source-neg-b.com/item-23",
+      "source": "Source Neg B",
+      "description": "SearchGPT prototype"
+    },
+    "expected_cluster": false
+  },
+  {
+    "id": "neg_24_authored_same_company_infrastructure_vs_release",
+    "provenance": "manually_authored",
+    "category": "same_company_infrastructure_vs_release",
+    "article_a": {
+      "title": "Meta signs nuclear power deal for AI datacenters",
+      "url": "https://source-neg-a.com/item-24",
+      "source": "Source Neg A",
+      "description": "Meta clean energy datacenter"
+    },
+    "article_b": {
+      "title": "Meta releases Llama 3.2 open model",
+      "url": "https://source-neg-b.com/item-24",
+      "source": "Source Neg B",
+      "description": "Llama 3.2 release"
+    },
+    "expected_cluster": false
+  },
+  {
+    "id": "neg_25_authored_same_company_infrastructure_vs_release",
+    "provenance": "manually_authored",
+    "category": "same_company_infrastructure_vs_release",
+    "article_a": {
+      "title": "Microsoft builds 1-gigawatt AI datacenter campus",
+      "url": "https://source-neg-a.com/item-25",
+      "source": "Source Neg A",
+      "description": "Microsoft datacenter power"
+    },
+    "article_b": {
+      "title": "Microsoft Copilot Studio autonomous agents",
+      "url": "https://source-neg-b.com/item-25",
+      "source": "Source Neg B",
+      "description": "Copilot Studio agents"
+    },
+    "expected_cluster": false
+  },
+  {
+    "id": "neg_26_authored_different_companies_similar_buzzwords",
+    "provenance": "manually_authored",
+    "category": "different_companies_similar_buzzwords",
+    "article_a": {
+      "title": "OpenAI announces SearchGPT web search prototype",
+      "url": "https://source-neg-a.com/item-26",
+      "source": "Source Neg A",
+      "description": "SearchGPT search"
+    },
+    "article_b": {
+      "title": "Google announces Gemini 1.5 Pro update",
+      "url": "https://source-neg-b.com/item-26",
+      "source": "Source Neg B",
+      "description": "Gemini 1.5 update"
+    },
+    "expected_cluster": false
+  },
+  {
+    "id": "neg_27_authored_different_companies_similar_buzzwords",
+    "provenance": "manually_authored",
+    "category": "different_companies_similar_buzzwords",
+    "article_a": {
+      "title": "Runway launches Gen-3 Alpha video generation model",
+      "url": "https://source-neg-a.com/item-27",
+      "source": "Source Neg A",
+      "description": "Runway Gen-3 video"
+    },
+    "article_b": {
+      "title": "OpenAI debuts Sora video generation model",
+      "url": "https://source-neg-b.com/item-27",
+      "source": "Source Neg B",
+      "description": "OpenAI Sora video"
+    },
+    "expected_cluster": false
+  },
+  {
+    "id": "neg_28_authored_different_companies_similar_buzzwords",
+    "provenance": "manually_authored",
+    "category": "different_companies_similar_buzzwords",
+    "article_a": {
+      "title": "Midjourney v6.1 rolls out sharper rendering",
+      "url": "https://source-neg-a.com/item-28",
+      "source": "Source Neg A",
+      "description": "Midjourney image generator"
+    },
+    "article_b": {
+      "title": "Black Forest Labs launches FLUX.1 model",
+      "url": "https://source-neg-b.com/item-28",
+      "source": "Source Neg B",
+      "description": "FLUX.1 image generator"
+    },
+    "expected_cluster": false
+  },
+  {
+    "id": "neg_29_authored_different_companies_similar_buzzwords",
+    "provenance": "manually_authored",
+    "category": "different_companies_similar_buzzwords",
+    "article_a": {
+      "title": "DeepSeek launches DeepSeek-V3 mixture of experts",
+      "url": "https://source-neg-a.com/item-29",
+      "source": "Source Neg A",
+      "description": "DeepSeek-V3 model"
+    },
+    "article_b": {
+      "title": "Mistral AI debuts Mixtral 8x22B model",
+      "url": "https://source-neg-b.com/item-29",
+      "source": "Source Neg B",
+      "description": "Mixtral 8x22B model"
+    },
+    "expected_cluster": false
+  },
+  {
+    "id": "neg_30_authored_different_companies_similar_buzzwords",
+    "provenance": "manually_authored",
+    "category": "different_companies_similar_buzzwords",
+    "article_a": {
+      "title": "Cohere launches Command R+ enterprise model",
+      "url": "https://source-neg-a.com/item-30",
+      "source": "Source Neg A",
+      "description": "Command R+ enterprise"
+    },
+    "article_b": {
+      "title": "Anthropic releases Claude 3.5 Sonnet",
+      "url": "https://source-neg-b.com/item-30",
+      "source": "Source Neg B",
+      "description": "Claude 3.5 enterprise"
+    },
+    "expected_cluster": false
+  },
+  {
+    "id": "neg_31_authored_different_companies_similar_buzzwords",
+    "provenance": "manually_authored",
+    "category": "different_companies_similar_buzzwords",
+    "article_a": {
+      "title": "OpenAI announces ChatGPT macOS desktop app",
+      "url": "https://source-neg-a.com/item-31",
+      "source": "Source Neg A",
+      "description": "ChatGPT Mac application"
+    },
+    "article_b": {
+      "title": "Apple announces Apple Intelligence for Mac",
+      "url": "https://source-neg-b.com/item-31",
+      "source": "Source Neg B",
+      "description": "Apple Intelligence Mac"
+    },
+    "expected_cluster": false
+  },
+  {
+    "id": "neg_32_authored_different_companies_similar_buzzwords",
+    "provenance": "manually_authored",
+    "category": "different_companies_similar_buzzwords",
+    "article_a": {
+      "title": "NVIDIA launches Blackwell B200 datacenter GPUs",
+      "url": "https://source-neg-a.com/item-32",
+      "source": "Source Neg A",
+      "description": "Blackwell GPU hardware"
+    },
+    "article_b": {
+      "title": "AMD unveils Instinct MI300X AI accelerator",
+      "url": "https://source-neg-b.com/item-32",
+      "source": "Source Neg B",
+      "description": "AMD MI300X hardware"
+    },
+    "expected_cluster": false
+  },
+  {
+    "id": "neg_33_authored_same_company_different_products",
+    "provenance": "manually_authored",
+    "category": "same_company_different_products",
+    "article_a": {
+      "title": "Google DeepMind releases AlphaFold 3 biomolecular model",
+      "url": "https://source-neg-a.com/item-33",
+      "source": "Source Neg A",
+      "description": "AlphaFold 3 biology"
+    },
+    "article_b": {
+      "title": "Google brings agentic AI to Gemini Workspace",
+      "url": "https://source-neg-b.com/item-33",
+      "source": "Source Neg B",
+      "description": "Gemini Workspace agents"
+    },
+    "expected_cluster": false
+  },
+  {
+    "id": "neg_34_authored_same_company_different_products",
+    "provenance": "manually_authored",
+    "category": "same_company_different_products",
+    "article_a": {
+      "title": "Meta releases Segment Anything Model 2 for video",
+      "url": "https://source-neg-a.com/item-34",
+      "source": "Source Neg A",
+      "description": "SAM 2 computer vision"
+    },
+    "article_b": {
+      "title": "Meta releases Llama 3.2 multimodal model",
+      "url": "https://source-neg-b.com/item-34",
+      "source": "Source Neg B",
+      "description": "Llama 3.2 multimodal"
+    },
+    "expected_cluster": false
+  },
+  {
+    "id": "neg_35_authored_same_company_different_products",
+    "provenance": "manually_authored",
+    "category": "same_company_different_products",
+    "article_a": {
+      "title": "OpenAI releases Whisper v3 Turbo speech transcription",
+      "url": "https://source-neg-a.com/item-35",
+      "source": "Source Neg A",
+      "description": "Whisper audio speech"
+    },
+    "article_b": {
+      "title": "OpenAI launches o1 reasoning model",
+      "url": "https://source-neg-b.com/item-35",
+      "source": "Source Neg B",
+      "description": "o1 reasoning"
+    },
+    "expected_cluster": false
+  },
+  {
+    "id": "neg_36_authored_same_company_executive_vs_release",
+    "provenance": "manually_authored",
+    "category": "same_company_executive_vs_release",
+    "article_a": {
+      "title": "Anthropic hires former OpenAI safety researchers",
+      "url": "https://source-neg-a.com/item-36",
+      "source": "Source Neg A",
+      "description": "Anthropic hires personnel"
+    },
+    "article_b": {
+      "title": "Anthropic releases Claude 3.5 Haiku",
+      "url": "https://source-neg-b.com/item-36",
+      "source": "Source Neg B",
+      "description": "Claude 3.5 Haiku launch"
+    },
+    "expected_cluster": false
+  },
+  {
+    "id": "neg_37_authored_same_company_funding_vs_release",
+    "provenance": "manually_authored",
+    "category": "same_company_funding_vs_release",
+    "article_a": {
+      "title": "Perplexity AI raises $250 million at $3 billion valuation",
+      "url": "https://source-neg-a.com/item-37",
+      "source": "Source Neg A",
+      "description": "Perplexity funding round"
+    },
+    "article_b": {
+      "title": "Perplexity launches enterprise knowledge search",
+      "url": "https://source-neg-b.com/item-37",
+      "source": "Source Neg B",
+      "description": "Perplexity enterprise search"
+    },
+    "expected_cluster": false
+  },
+  {
+    "id": "neg_38_authored_same_company_legal_vs_release",
+    "provenance": "manually_authored",
+    "category": "same_company_legal_vs_release",
+    "article_a": {
+      "title": "Elon Musk sues OpenAI and Sam Altman over breach of charter",
+      "url": "https://source-neg-a.com/item-38",
+      "source": "Source Neg A",
+      "description": "Musk lawsuit against OpenAI"
+    },
+    "article_b": {
+      "title": "OpenAI releases o1 reasoning model",
+      "url": "https://source-neg-b.com/item-38",
+      "source": "Source Neg B",
+      "description": "o1 model launch"
+    },
+    "expected_cluster": false
+  },
+  {
+    "id": "neg_39_authored_same_company_legal_vs_release",
+    "provenance": "manually_authored",
+    "category": "same_company_legal_vs_release",
+    "article_a": {
+      "title": "The New York Times sues Microsoft and OpenAI over copyright",
+      "url": "https://source-neg-a.com/item-39",
+      "source": "Source Neg A",
+      "description": "NYT copyright lawsuit"
+    },
+    "article_b": {
+      "title": "OpenAI announces SearchGPT prototype",
+      "url": "https://source-neg-b.com/item-39",
+      "source": "Source Neg B",
+      "description": "SearchGPT prototype"
+    },
+    "expected_cluster": false
+  },
+  {
+    "id": "neg_40_authored_same_company_infrastructure_vs_release",
+    "provenance": "manually_authored",
+    "category": "same_company_infrastructure_vs_release",
+    "article_a": {
+      "title": "Google agrees to restart nuclear reactor to power AI datacenters",
+      "url": "https://source-neg-a.com/item-40",
+      "source": "Source Neg A",
+      "description": "Google nuclear datacenter energy"
+    },
+    "article_b": {
+      "title": "Google launches Gemini 2.0 experimental",
+      "url": "https://source-neg-b.com/item-40",
+      "source": "Source Neg B",
+      "description": "Gemini 2.0 experimental"
+    },
+    "expected_cluster": false
+  },
+  {
+    "id": "neg_41_authored_same_company_different_versions",
+    "provenance": "manually_authored",
+    "category": "same_company_different_versions",
+    "article_a": {
+      "title": "Meta releases Llama 3 70B open foundation model",
+      "url": "https://source-neg-a.com/item-41",
+      "source": "Source Neg A",
+      "description": "Llama 3 70B release"
+    },
+    "article_b": {
+      "title": "Meta releases Llama 2 70B model",
+      "url": "https://source-neg-b.com/item-41",
+      "source": "Source Neg B",
+      "description": "Llama 2 70B release"
+    },
+    "expected_cluster": false
+  },
+  {
+    "id": "neg_42_authored_same_company_different_versions",
+    "provenance": "manually_authored",
+    "category": "same_company_different_versions",
+    "article_a": {
+      "title": "Mistral AI releases Mistral 7B foundation model",
+      "url": "https://source-neg-a.com/item-42",
+      "source": "Source Neg A",
+      "description": "Mistral 7B release"
+    },
+    "article_b": {
+      "title": "Mistral AI debuts Mistral Large 2",
+      "url": "https://source-neg-b.com/item-42",
+      "source": "Source Neg B",
+      "description": "Mistral Large 2 release"
+    },
+    "expected_cluster": false
+  },
+  {
+    "id": "neg_43_authored_same_company_different_versions",
+    "provenance": "manually_authored",
+    "category": "same_company_different_versions",
+    "article_a": {
+      "title": "OpenAI announces GPT-4-Turbo with 128k context",
+      "url": "https://source-neg-a.com/item-43",
+      "source": "Source Neg A",
+      "description": "GPT-4-Turbo release"
+    },
+    "article_b": {
+      "title": "OpenAI unveils GPT-4o with omni capabilities",
+      "url": "https://source-neg-b.com/item-43",
+      "source": "Source Neg B",
+      "description": "GPT-4o release"
+    },
+    "expected_cluster": false
+  },
+  {
+    "id": "neg_44_authored_same_company_different_versions",
+    "provenance": "manually_authored",
+    "category": "same_company_different_versions",
+    "article_a": {
+      "title": "Anthropic introduces Claude 2 with 100k context window",
+      "url": "https://source-neg-a.com/item-44",
+      "source": "Source Neg A",
+      "description": "Claude 2 release"
+    },
+    "article_b": {
+      "title": "Anthropic releases Claude 3.5 Sonnet",
+      "url": "https://source-neg-b.com/item-44",
+      "source": "Source Neg B",
+      "description": "Claude 3.5 Sonnet release"
+    },
+    "expected_cluster": false
+  },
+  {
+    "id": "neg_45_authored_same_company_different_versions",
+    "provenance": "manually_authored",
+    "category": "same_company_different_versions",
+    "article_a": {
+      "title": "Stability AI releases Stable Diffusion 3 Medium",
+      "url": "https://source-neg-a.com/item-45",
+      "source": "Source Neg A",
+      "description": "SD 3 Medium release"
+    },
+    "article_b": {
+      "title": "Stability AI introduces Stable Diffusion XL",
+      "url": "https://source-neg-b.com/item-45",
+      "source": "Source Neg B",
+      "description": "SDXL release"
+    },
+    "expected_cluster": false
+  },
+  {
+    "id": "neg_46_authored_same_company_different_products",
+    "provenance": "manually_authored",
+    "category": "same_company_different_products",
+    "article_a": {
+      "title": "DeepSeek releases DeepSeek Coder 33B model",
+      "url": "https://source-neg-a.com/item-46",
+      "source": "Source Neg A",
+      "description": "DeepSeek Coder release"
+    },
+    "article_b": {
+      "title": "DeepSeek launches DeepSeek-R1 reasoning model",
+      "url": "https://source-neg-b.com/item-46",
+      "source": "Source Neg B",
+      "description": "DeepSeek-R1 release"
+    },
+    "expected_cluster": false
+  },
+  {
+    "id": "neg_47_authored_same_company_financial_vs_feature",
+    "provenance": "manually_authored",
+    "category": "same_company_financial_vs_feature",
+    "article_a": {
+      "title": "Apple Intelligence notification summaries launch on iPhone 16",
+      "url": "https://source-neg-a.com/item-47",
+      "source": "Source Neg A",
+      "description": "Apple Intelligence notification feature"
+    },
+    "article_b": {
+      "title": "Apple reports record iPhone hardware revenue",
+      "url": "https://source-neg-b.com/item-47",
+      "source": "Source Neg B",
+      "description": "Apple quarterly earnings finance"
+    },
+    "expected_cluster": false
+  },
+  {
+    "id": "neg_48_authored_same_company_financial_vs_release",
+    "provenance": "manually_authored",
+    "category": "same_company_financial_vs_release",
+    "article_a": {
+      "title": "Microsoft announces quarterly earnings boosted by Azure AI cloud",
+      "url": "https://source-neg-a.com/item-48",
+      "source": "Source Neg A",
+      "description": "Microsoft cloud finance earnings"
+    },
+    "article_b": {
+      "title": "Microsoft Copilot Studio autonomous agents",
+      "url": "https://source-neg-b.com/item-48",
+      "source": "Source Neg B",
+      "description": "Copilot Studio agents"
+    },
+    "expected_cluster": false
+  },
+  {
+    "id": "neg_49_authored_same_company_funding_vs_release",
+    "provenance": "manually_authored",
+    "category": "same_company_funding_vs_release",
+    "article_a": {
+      "title": "Cursor AI raises $60 million from Andreessen Horowitz",
+      "url": "https://source-neg-a.com/item-49",
+      "source": "Source Neg A",
+      "description": "Cursor funding round"
+    },
+    "article_b": {
+      "title": "Cursor AI code editor adds background agentic features",
+      "url": "https://source-neg-b.com/item-49",
+      "source": "Source Neg B",
+      "description": "Cursor autonomous agent feature"
+    },
+    "expected_cluster": false
+  },
+  {
+    "id": "neg_50_authored_same_company_funding_vs_release",
+    "provenance": "manually_authored",
+    "category": "same_company_funding_vs_release",
+    "article_a": {
+      "title": "Company X announces $100 million Series B investment",
+      "url": "https://source-neg-a.com/item-50",
+      "source": "Source Neg A",
+      "description": "Company X funding"
+    },
+    "article_b": {
+      "title": "Company X releases a new reasoning model",
+      "url": "https://source-neg-b.com/item-50",
+      "source": "Source Neg B",
+      "description": "Company X model launch"
+    },
+    "expected_cluster": false
+  }
+]

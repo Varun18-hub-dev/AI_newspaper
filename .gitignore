@@ -1,0 +1,89 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environments
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# Environment variables
+.env
+*.env
+
+# IDE / Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Testing / Coverage
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Operating System Files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+.DS_Store
+# Python environments
+.venv/
+
+# Next.js
+.next/
+out/
+
+# Local databases and generated editions
+*.db
+*.sqlite
+*.sqlite3
+data/editions/
+
+# ML models and generated artifacts
+*.onnx
+*.pt
+*.pth
+*.safetensors
+
+# Logs and caches
+*.log
+.cache/
+
+# Environment files
+.env.*
+!.env.example
+# Dependencies
+frontend/node_modules/
+node_modules/
+
+
+# Runtime lock files
+data/pipeline.lock
+
